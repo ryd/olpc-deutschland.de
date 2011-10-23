@@ -1,0 +1,53 @@
+/* 
+ * screen styles für olpc-deutschland.de
+ *
+ */
+
+body{ font:13px 'DejaVu Sans',sans-serif;line-height:1.3em;text-align:center;background:#eee; }
+
+a{ color:#65A437; }
+h1,h2,h3,h4{  }
+h1{ color:#65A437;margin:50px 0 10px 0; }
+h2{ color:#65A437;margin:30px 0 10px 0;border-bottom:2px solid #65A437; }
+h3{  }
+h4{ margin:0; }
+
+acronym{ text-decoration:none;border-bottom:1px dotted #000; }
+
+dt{ font-weight:bold;margin-top:10px; }
+img.right{ margin:8px 0 5px 20px;float:right;display:inline; }
+img.left{ margin:8px 20px 5px 0;float:left;display:inline; }
+
+.hidden{ display:none; }
+
+#position{ width:722px;margin:10px auto 10px auto;padding:0;text-align:left; }
+#liner,#head,#content,#metanav,#foot{ float:left;display:inline; }
+#liner{ width:722px;overflow:hidden;margin:0 0 20px 0;background:#fff url(gfx/liner_bg.png) repeat-y; }
+#head{ width:722px;height:170px;margin:0;padding:0;background:url(gfx/head_bg.png) no-repeat; }
+#content{ margin:0 0 50px 35px;padding:0;width:652px;text-align:justify; }
+#foot{ width:722px;margin:0;padding:20px 0;background:url(gfx/footer_bg.png) 0 bottom no-repeat;text-align:center; }
+
+#metanav{ width:662px;margin:5px 0 10px 30px; }
+#metanav ul{ float:left;display:inline;margin:0;padding:0;border-left:1px solid #999; }
+#metanav li{ float:left;display:inline;margin:0;padding:0; }
+#metanav a{ float:left;display:block;margin:0;padding:2px 8px;border-right:1px solid #999;font-weight:bold;text-decoration:none; }
+#metanav a:hover{ background:#65A437;color:#fff; }
+#metanav b{ float:left;display:block;margin:0;padding:2px 8px;border-right:1px solid #999;color:#999 }
+
+.top-banner{ margin-top:15px;display:block;background:#6EBE46 url(gfx/aktion_banner.jpg) 10px 10px no-repeat;padding:15px 10px 20px 10px;color:#fff;text-align:left; }
+.top-banner a{ color:#fff; }
+.top-banner h1{ color:#fff;margin:0;line-height:1.2em; }
+.top-banner h2{ color:#fff;margin:0;line-height:1.2em;border:0;font-size:16px; }
+.top-banner h3{ margin:0; }
+.top-banner img.left{ margin:0 20px 0 0; }
+.top-banner p{ margin:5px 0 0 0; }
+.top-banner ul.big-time{ font-weight:bold;font-size:16px;margin:10px 0 0 0;padding:0; }
+.top-banner ul.big-time li{ font-weight:bold;font-size:16px;margin:5px 0 0 165px;padding:0; }
+.top-banner p,.top-banner h1,.top-banner h2,.top-banner ul{ margin-left:150px; }
+
+.meeting-banner{ margin-top:20px;display:block;background:#ffec93 url(gfx/treffen_banner.jpg) right 5px no-repeat;padding:5px 140px 5px 15px;color:#9f1500;font-size:12px;font-weight:bold;text-align:left; }
+.meeting-banner a{ color:#9f1500; }
+.meeting-banner a:hover{ color:#f00; }
+.meeting-banner h1{ background:#fff;color:#9f1500;margin:5px 0 5px 0;padding:5px;font-size:20px; }
+.meeting-banner p,.meeting-banner ul{ margin:0 0 5px 0; }
+.meeting-banner ul{font-size:14px;}
